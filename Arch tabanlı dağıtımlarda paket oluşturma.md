@@ -45,7 +45,7 @@ package() { echo 'Merhaba Dünya!' > "${srcdir}/merhaba-dunya.sh" mkdir -p "${pk
 ```
 
 Ve hazırız eğer bittiyse şöyle gözükecek:
-![1627383167716.png](https://forum.shiftdelete.net/ekler/1627383167716-png.160120/ "1627383167716.png")
+![[68747470733a2f2f666f72756d2e736869667464656c6574652e6e65742f656b6c65722f313632373338333136373731362d706e672e3136303132302f.png]]
 
 > PKGBUILD ile yazdığınız kod aynı klasörde olmalıdır.
 
