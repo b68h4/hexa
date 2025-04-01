@@ -47,11 +47,9 @@ PKGBUILD Dosyası Oluşturma
     ${pkgdir}: Sistemimize kurulacak dosyaları buraya yerleştiriyoruz.  
     ${pkgdir} klasör yapısı sanki gerçek bir sistemdeymiş gibi kurulur (yani ${pkgdir}/usr/bin/merhaba-dunya pacman ile kurulum yaparken /usr/bin/merhaba-dunya dosyasını oluşturur.  
     `package() { echo 'Merhaba Dünya!' > "${srcdir}/merhaba-dunya.sh" mkdir -p "${pkgdir}/usr/bin" cp "${srcdir}/merhaba-dunya.sh" "${pkgdir}/usr/bin/merhaba-dunya" chmod +x "${pkgdir}/usr/bin/merhaba-dunya" }`  
-    **Ve hazırız eğer bittiyse şöyle gözükecek:  
+    **Ve hazırız eğer bittiyse şöyle gözükecek:**  
     
     ![1627383167716.png](https://forum.shiftdelete.net/ekler/1627383167716-png.160120/ "1627383167716.png")
-    
-    **
 
 Not 1: PKGBUILD ile yazdığınız kod aynı klasörde olmalıdır.  
 Not 2: Merhaba-dunya.sh oluşturmak için `touch merhaba-dunya.sh`  
